@@ -1,0 +1,103 @@
+/* Cool Background Color */
+body {
+  margin: 0;
+  font-family: 'Jost', sans-serif;
+  background: linear-gradient(135deg, #1d3557, #457b9d, #a8dadc);
+  background-attachment: fixed;
+  color: #fff; /* Adjust text color for contrast */
+}
+
+/* Centered Header Styling */
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin: 20px 0;
+  color: #f1faee; /* Soft white */
+}
+
+/* Navigation Menu */
+.navmenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(29, 53, 87, 0.8); /* Semi-transparent navbar */
+  padding: 15px 0;
+}
+
+.navmenu li {
+  margin: 0 15px;
+}
+
+.navmenu a {
+  text-decoration: none;
+  color: #f1faee;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.navmenu a:hover {
+  color: #a8dadc;
+}
+
+
+.logo img {
+  width: 100%; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto;
+  border-radius: 10px; 
+}
+
+
+.logo {
+  overflow: hidden; 
+  max-width: 100%; 
+}
+
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: rgba(29, 53, 87, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  text-align: center;
+  color: #f1faee;
+  width: 300px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card h3 {
+  margin: 15px 0 10px;
+  font-size: 1.5rem;
+  color: #a8dadc;
+}
+
+.card p {
+  margin: 5px 0;
+}
+
+
+body {
+  padding-bottom: 20px;
+}

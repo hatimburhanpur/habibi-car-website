@@ -1,0 +1,148 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+    background: linear-gradient(135deg, #1d3557, #457b9d, #a8dadc);
+    background-attachment: fixed;
+    color: #fff; /* Adjust text color for contrast */
+    padding-bottom: 20px;
+}
+
+/* Centered Header Styling */
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 20px 0;
+    color: #f1faee; /* Soft white */
+}
+
+/* Navigation Menu */
+.navmenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(29, 53, 87, 0.8); /* Semi-transparent navbar */
+    padding: 40px 0;
+}
+
+.navmenu li {
+    margin: 0 15px;
+}
+
+.navmenu a {
+    text-decoration: none;
+    color: #f1faee;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.navmenu a:hover {
+    color: #a8dadc;
+}
+
+/* Logo Section */
+.logo {
+    overflow: hidden;
+    max-width: 500%;
+    margin: 20px auto; /* Added spacing for aesthetics */
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.dealer-section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dealer-section h1 {
+    font-size: 2.5em;
+    color: #d32f2f;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dealer-section p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+
+
+
+/* Cards Section */
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap; /* Makes cards responsive */
+}
+
+.card {
+    background: rgba(29, 53, 87, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+    color: #f1faee;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h3 {
+    margin: 15px 0 10px;
+    font-size: 1.5rem;
+    color: #a8dadc;
+}
+
+.card p {
+    margin: 5px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navmenu {
+        flex-wrap: wrap; /* Allow navigation to wrap */
+    }
+
+    .container {
+        flex-direction: column; /* Stack cards vertically */
+        align-items: center;
+    }
+
+    .card {
+        width: 90%; /* Adjust card width for smaller screens */
+    }
+}
